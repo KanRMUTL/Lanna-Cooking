@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bgw"
+    android:orientation="vertical"
+    tools:context="com.mk.thainativecook.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/logokhl"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="210dp"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="180dp"
+                android:background="@drawable/khl" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ส่วนผสม"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:paddingLeft="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1. เนื้อสันคอหมู\n2. เนื้อหมูสามชั้น	\n3. น้ำอ้อยป่น\n4. น้ำมะขามเปียก\n5. ขิงซอย\n6. กระเทียม\n7. ถั่วลิสงคั่ว\n8. สับปะรด\n9. ผงฮังเล"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="300 กรัม\n200 กรัม\n2 ช้อนโต๊ะ\n3 ช้อนโต๊ะ\n1/2 ถ้วย\n1/2 ถ้วย\n2 ช้อนโต๊ะ\n2 ช้อนโต๊ะ\n2 ช้อนโต๊ะ"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เครื่องแกง"
+                android:textSize="25dp"
+                android:paddingBottom="30dp"
+                android:layout_gravity="left" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:paddingLeft="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1.พริกแห้ง\n2. พริกขี้หนูแห้ง\n3. หอมแดง\n4. กระเทียม	\n5. ตะไคร้ซอย\n6. ข่าซอย\n7. เกลือ\n8. กะปิหยาบ"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="7 เม็ด\n4 เม็ด\n3 หัว\n20 กลีบ\n2 ช้อนโต๊ะ\n1 ช้อนโต๊ะ\n1 ช้อนชา\n1/2 ช้อนโต๊ะ"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="วิธีการทำ"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/khl1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/khl2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/khl3" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/khl4" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/khl5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/khl6" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingLeft="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n1.หั่นเนื้อหมูสันคอและหมูสามชั้นเป็นชิ้น ขนาด 1.5 x 1.5 นิ้ว\n2. โขลกเครื่องแกงรวมกันให้ละเอียด\n3. ผสมเครื่องแกง ผงฮังเล สับปะรด และเนื้อหมู คลุกเคล้าให้เข้ากัน หมักไว้ประมาณ 1 ชั่วโมง\n4. นำหมูที่หมักไว้มาตั้งไฟ ใส่น้ำเล็กน้อย ผัดจนกว่าหมูตึงตัว เคี่ยวต่อ คอยเติมน้ำเรื่อยๆ จนหมูนิ่มได้ที่\n5. ใส่น้ำอ้อยป่น น้ำมะขามเปียก ใส่กระเทียม และขิงซอย คนให้เข้ากัน เคี่ยวต่อ\n6. ใส่ถั่วลิสงคั่ว พอเดือดสักพัก ปิดไฟ"
+                android:paddingBottom="30dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เคล็ดลับในการปรุง"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เคล็ดลับในการปรุงการคั่วเครื่องแกง ใช้ไฟปานกลาง ใช้เนื้อกระท้อนแทนมะขามเปียกได้ ให้รสชาติเปรี้ยว และมีกลิ่นหอมเคล็ดลับในการเลือกส่วนผสมหมูสามชั้น ควรเลือกที่มันไม่หนาเกินไป หรือเลือกใช้ซี่โครงหมูแทน ก็ได้"
+                android:textSize="15dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

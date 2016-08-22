@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/bgw"
+    android:orientation="vertical"
+    tools:context="com.mk.thainativecook.MainActivity"
+    android:scrollbarStyle="outsideInset">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="30dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="15dp"
+        android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/jpk"
+            android:id="@+id/imgbtnjpk"
+            style="@android:style/Widget.Holo.Light.ImageButton"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:text="จอผักกาด"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"/>
+                <TextView
+                    android:text="วิธีการทำ\n1.\n2.\n3."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="170dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/ca"
+                android:id="@+id/imgbtnca"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="ใส้อั่ว"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"/>
+                <TextView
+                    android:text="วิธีการทำ\n1.\n2.\n3."
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="170dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/kgc"
+                android:id="@+id/imgbtnkgc"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="คั่วจิ้นส้ม"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"/>
+                <TextView
+                    android:text="วิธีการทำ\n1.\n2.\n3."
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="170dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/khl"
+                android:id="@+id/imgbtnkhl"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="แกงฮังเล"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"/>
+                <TextView
+                    android:text="วิธีการทำ\n1.\n2.\n3."
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="170dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/knk"
+                android:id="@+id/imgbtnknk"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="แกงแคไก่"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"/>
+                <TextView
+                    android:text="วิธีการทำ\n1.\n2.\n3."
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

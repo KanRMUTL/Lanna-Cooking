@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bgw"
+    android:orientation="vertical"
+    tools:context="com.mk.thainativecook.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/logokkk"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="210dp"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="180dp"
+                android:background="@drawable/knk" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ส่วนผสม"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:paddingLeft="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1.เนื้อไก่บ้าน\n2. ตำลึง\n3. ชะอม\n4. ชะพลู\n5. ถั่วฝักยาว\n6. มะเขือเปราะ\n7. มะเขือพวง\n8. ดอกงิ้วแห้ง\n9. เห็ดลมอ่อน\n10. ถั่วพู\n11. ผักขี้หูด\n12. ผักเผ็ด\n13. ดอกข่า\n14. ใบมะกรูด\n15. ผักชีฝรั่ง\n16. น้ำมันพืช\n17. กระเทียม	"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="200 กรัม\n1 ถ้วย\n1/2 ถ้วย\n1/2 ถ้วย\n1/2 ถ้วย\n1/2 ถ้วย\n1/4 ถ้วย\n5 ดอก\n1/2 ถ้วย\n1/2 ถ้วย\n1/2 ถ้วย\n1/2 ถ้วย\n3 ดอก\n5 ใบ\n2 ต้น\n2 ช้อนโต๊ะ\n1 ช้อนโต๊ะ"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เครื่องแกง"
+                android:textSize="25dp"
+                android:paddingBottom="30dp"
+                android:layout_gravity="left" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:paddingLeft="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1.พริกขี้หนูแห้ง\n2. กระเทียม\n3. หอมแดง\n4. ข่าหั่น\n5. ตะไคร้ซอย\n6. กะปิ\n7. ปลาร้าต้มสุก\n8. เกลือ"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="15 เม็ด\n10 กลีบ\n5 หัว\n1 ช้อนโต๊ะ\n2 ช้อนโต๊ะ\n1 ช้อนชา\n1 ช้อนโต๊ะ\n1/2 ช้อนชา"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="วิธีการทำ"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kkk1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kkk2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kkk3" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kkk4" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kkk5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kkk6" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kkk7" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n1. สับไก่เป็นชิ้นพอคำ\n2. เด็ดหรือหั่นผักทุกชนิด ล้างให้สะอาด พักไว้\n3. โขลกเครื่องแกงรวมกันให้ละเอียด \n4. เจียวกระเทียมที่สับแล้วพอเหลือง ใส่เครื่องแกงลงผัดให้หอม \n5. ใส่ไก่ ผัดไก่ให้สุก \n6. ใส่น้ำพอท่วมไก่ ตั้งต่อให้เดือด\n7. ใส่ผักสุกยาก ตามด้วยผักที่สุกง่าย คนให้เข้ากัน พอผักสุก ยกลง"
+                android:paddingBottom="30dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เคล็ดลับในการปรุง"
+                android:textSize="25dp"
+                android:paddingBottom="30dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  การคั่วหรือผัดเครื่องแกง\nใช้ไฟปานกลางบางสูตรอาจใส่เม็ด\nผักชี มะแขว่น ใบขิง หน่อข่า \nเพื่อเพิ่มกลิ่นหอมของแกงแคผักที่ใช้\nเป็นส่วนผสมสามารถใส่ผักชนิดอื่นๆได้\n เช่น หน่อไม้ต้ม ยอดมะพร้าว จักค่านแห้ง ดอกแคขาวดอกแคแดง\n\nเคล็ดลับในการเลือกส่วนผสม\nถ้าเป็นแกงแคไก่ควรใช้ไก่บ้านรสชาติ\nน้ำแกงจะกลมกล่อมพริกขี้หนูแห้งที่ใช้ ควรใช้พริกขี้หนูยอดสนแห้ง ผสมกับพริกขี้หนูสวนอย่างละครึ่ง"
+                android:textSize="15dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

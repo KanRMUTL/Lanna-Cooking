@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bgw"
+    android:orientation="vertical"
+    tools:context="com.mk.thainativecook.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/logo1"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="210dp"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="180dp"
+                android:background="@drawable/ca" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ส่วนผสม"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="115dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="1. เนื้อหมูบด            1 กิโลกรัม\n2. ไส้หมู	                 300 กรัม\n3. ใบมะกรูด	           10 ใบ\n4. ผักชีซอย	            2 ช้อนโต๊ะ\n5. ต้นหอมซอย	      2 ช้อนโต๊ะ"
+                android:textSize="15dp"
+                android:paddingLeft="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เครื่องแกง"
+                android:textSize="25dp"
+                android:paddingBottom="30dp"
+                android:layout_gravity="left" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:paddingLeft="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1.พริกแกง\n 2.ข่าหั่น\n 3.ตะไคร้ซอย\n 4.หมอแดง\n 5.กระเทียม\n 6.กะปิ\n 7.เกลือ"
+                android:id="@+id/textView"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="10 เม็ด\n 1 ช้อนโต๊ะ\n 2 ช้อนโต๊ะ\n 10 หัว\n 20 กลีบ\n 2 ช้อนโตะ\n 1 ช้อนชา\n"
+                android:id="@+id/textView2"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="วิธีการทำ"
+                android:textSize="25dp"
+                android:paddingBottom="30dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/m1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/m2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/m3" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/m4" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/m5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/m6" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/m7" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:layout_gravity="left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n1. โขลกเครื่องแกงรวมกันให้ละเอียด\n2. ล้างไส้หมูให้สะอาด โดยใส่น้ำลงในไส้ แล้วกลับด้านในออกมาด้านนอก นำไปแช่น้ำใส่เกลือ ประมาณ 10 นาที แล้วกลับด้านนอกออกเหมือนเดิม\n3.ใส่เครื่องแกงลงคลุกเคล้ากับเนื้อหมูบดให้เข้ากัน\n4. ใส่ผักชีต้นหอมซอย ใบมะกรูดซอย คลุกเคล้าให้เข้ากัน\n5. นำหมูที่คลุกเคล้าเรียบร้อยแล้ว มากรอกใส่ไส้หมู โดยใช้กรวยช่วยในการกรอกหมูใส่ไส้\n6. เมื่อกรอกไส้จนเต็มแล้ว มัดปากไส้\n7. นำไส้อั่วที่ได้มาย่างไฟอ่อนๆ จนสุกเหลืองทั่ว ประมาณ 45 นาที "
+                android:textSize="15dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เคล็ดลับในการปรุง"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   ขณะที่นำไส้อั่วย่างไฟให้ใช้ไม้จิ้ม\nเพื่อระบายอากาศเพื่อไม่ให้ไส้แตกย่างกับถ่านไม้ ไส้อั่วจะมีกลิ่นหอมชวนรับประทาน"
+                android:textSize="15dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

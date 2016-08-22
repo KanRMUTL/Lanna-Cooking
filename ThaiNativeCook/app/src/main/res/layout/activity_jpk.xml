@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bgw"
+    android:orientation="vertical"
+    tools:context="com.mk.thainativecook.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/logojpk"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="210dp"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="180dp"
+                android:background="@drawable/jpk" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ส่วนผสม"
+                android:textSize="25dp"
+                android:paddingBottom="30dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="1.	ผักกาดกวางตุ้ง              1  กิโลกรัม\n2.	ซี่โครงหมู                        400  กรัม\n3.	หอมแดง                          5  หัว\n4.	กระเทียม                        10  กลีบ\n5.	ถั่วเน่าแข็บย่างไฟ           2  แผ่น\n6.	กะปิ                                  2  ช้อนโต๊ะ\n7.	น้ำมะขามเปียก               3  ช้อนโต๊ะ\n8.	เกลือป่น                           1  ช้อนชา\n9.	น้ำมันพืช                          2  ช้อนโต๊ะ"
+                android:textSize="15dp"
+                android:paddingLeft="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="วิธีการทำ"
+                android:textSize="25dp"
+                android:paddingBottom="30dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jpk1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jpk2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jpk3" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jpk4" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jpk5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jpk6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n1. ต้มน้ำเปล่า พอเดือด ใส่ซี่โครงหมูสับ ต้มจนกระทั่งหมูนุ่ม\n2. โขลกกระเทียม หอมแดง กะปิ เกลือ รวมกันให้ละเอียด ใส่ลงในหม้อต้มซี่โครงหมู\n3. พอเดือด ใส่ผักกวางตุ้งเด็ดเป็นท่อน\n4. พอผักนุ่ม ใส่ถั่วเน่าแผ่นโขลกละเอียด\n5. ใส่น้ำมะขามเปียก คนให้ทั่ว พอเดือด ปิดไฟ\n6. ตั้งกระทะใส่น้ำมัน พอร้อน ใส่พริกขี้หนูแห้งลงทอด พอกรอบ ตักขึ้น ใส่กระเทียมสับ เจียวให้เหลือง เททั้งกระเทียมเจียวและน้ำมัน ใส่หม้อจอผักกาด (จ่าว) คนให้เข้ากัน"
+                android:textSize="15dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เคล็ดลับในการปรุง"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="บางสูตรใส่ปลาร้า หรือบางสูตรใส่น้ำอ้อยเพื่อให้มีรสหวานถ้าใช้มะขามสด ให้ลวก หรือเผา แล้วแกะเอาเปลือกออก เลือกเอาแต่เนื้อและน้ำ เพื่อนำไปปรุงรส รสชาติของจอผักกาดจะกลมกล่อม"
+                android:textSize="15dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
