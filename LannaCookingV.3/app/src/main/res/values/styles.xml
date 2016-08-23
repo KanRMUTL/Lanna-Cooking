@@ -8,6 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- ===================== DETAIL ====================-->
+
     <style name="title_detail">
         <item name="android:textSize">22sp</item>
         <item name="android:layout_marginTop">20dp</item>
@@ -19,15 +21,17 @@
         <item name="android:layout_marginLeft">20dp</item>
     </style>
 
-    <style name="img_activity_row">
-        <item name="android:layout_marginLeft">15dp</item>
-        <item name="android:layout_marginTop">15dp</item>
-    </style>
 
+    <!--================== ACTIVITY ROW ===============-->
     <style name="title_activity_row">
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:layout_marginLeft">15dp</item>
-        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="item_activity_row">
+        <item name="android:paddingLeft">23dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingBottom">12dp</item>
     </style>
 </resources>
