@@ -31,6 +31,5 @@ public class DetailActivity extends AppCompatActivity {
         step.setText(cooking.getStep());
         trick.setText(cooking.getTrick());
 
-
     }
 }

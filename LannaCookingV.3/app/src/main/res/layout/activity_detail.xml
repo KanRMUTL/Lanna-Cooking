@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,8 +11,8 @@
     tools:context="com.kan.lannacookingv3.DetailActivity">
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,6 +35,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
         android:text="@string/title_item"
         android:id="@+id/title_item"
         style="@style/title_detail"/>
@@ -45,11 +45,13 @@
         android:layout_height="wrap_content"
         android:text="Large Text"
         android:id="@+id/item"
+            android:paddingLeft="16dp"
         style="@style/content_detail"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
             android:text="@string/title_step"
             android:id="@+id/title_step"
             style="@style/title_detail" />
@@ -59,12 +61,14 @@
         android:layout_height="wrap_content"
         android:text="Large Text"
         android:id="@+id/step"
+            android:paddingLeft="16dp"
         style="@style/content_detail" />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
             android:text="@string/title_trick"
             android:id="@+id/title_trick"
             style="@style/title_detail" />
@@ -74,6 +78,7 @@
         android:layout_height="wrap_content"
         android:text="Large Text"
         android:id="@+id/trick"
+            android:paddingLeft="16dp"
         style="@style/content_detail"/>
 
     </LinearLayout>
