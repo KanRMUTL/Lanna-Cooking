@@ -46,10 +46,13 @@ public class CookingAdapter extends BaseAdapter {
     public View getView(int position, View converview, ViewGroup parent) {
         View view = converview;
         view = layoutInflater.inflate(R.layout.activity_row, null);
-        TextView menuName = (TextView)view.findViewById(R.id.menuName);
         ImageView img = (ImageView)view.findViewById(R.id.imageView) ;
-        menuName.setText(this.cookings.get(position).getName());
+        TextView menuName = (TextView)view.findViewById(R.id.menuName);
+        TextView item = (TextView)view.findViewById(R.id.item);
+
         img.setImageResource(R.drawable.kkd);
+        menuName.setText(this.cookings.get(position).getName());
+        item.setText(this.cookings.get(position).getItem());
         return view;
     }
 }
