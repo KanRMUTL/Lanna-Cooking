@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lanna Cooking V.3</string>
+    <string name="menu_name">ชื่อเมนู</string>
+    <string name="title_item">ส่วนผสม</string>
+    <string name="title_step">วิธีทำ</string>
+    <string name="title_trick">เคล็ดลับ</string>
+</resources>
