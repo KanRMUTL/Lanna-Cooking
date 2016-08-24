@@ -33,10 +33,11 @@ public class CookingDAO {
             cooking = new Cooking();
             cooking.setId(cursor.getString(0));
             cooking.setName(cursor.getString(1));
-            cooking.setItem(cursor.getString(2));
-            cooking.setStep(cursor.getString(3));
-            cooking.setTrick(cursor.getString(4));
-            cooking.setImg(cursor.getString(5));
+            cooking.setInformation(cursor.getString(2));
+            cooking.setItem(cursor.getString(3));
+            cooking.setStep(cursor.getString(4));
+            cooking.setTrick(cursor.getString(5));
+            cooking.setImg(cursor.getString(6));
 
             cookings.add(cooking);
             cursor.moveToNext();

@@ -8,9 +8,11 @@ import java.io.Serializable;
 public class Cooking implements Serializable {
     private String id;
     private String name;
+    private String information;
     private String item;
     private String step;
     private String img;
+    private String trick;
 
     public String getImg() {
         return img;
@@ -60,5 +62,7 @@ public class Cooking implements Serializable {
         this.step = step;
     }
 
-    private String trick;
+    public String getInformation() {return information;}
+
+    public void setInformation(String information) {this.information = information;}
 }
