@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DetailActivity extends AppCompatActivity {
-    private TextView menuName, item,step, trick;
+    private TextView menuName, item,step, trick,information;
     private Cooking cooking;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,8 @@ public class DetailActivity extends AppCompatActivity {
 
         cooking = (Cooking) intent.getSerializableExtra("cookingObj");
 
-        menuName = (TextView) findViewById(R.id.title_menuName);
+        menuName = (TextView)findViewById(R.id.title_menuName);
+        information = (TextView)findViewById(R.id.information);
         item = (TextView)findViewById(R.id.item);
         step = (TextView)findViewById(R.id.step);
         trick = (TextView)findViewById(R.id.trick);
@@ -26,6 +27,7 @@ public class DetailActivity extends AppCompatActivity {
 
 
         menuName.setText(cooking.getName());
+        information.setText(cooking.getInformation());
         pic.setImageResource(R.drawable.kkd);
         item.setText(cooking.getItem());
         step.setText(cooking.getStep());
