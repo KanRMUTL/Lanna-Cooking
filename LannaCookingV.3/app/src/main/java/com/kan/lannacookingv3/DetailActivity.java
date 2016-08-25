@@ -1,6 +1,7 @@
 package com.kan.lannacookingv3;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -13,6 +14,7 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+        Typeface mytypeface = Typeface.createFromAsset(getAssets(), "THSarabun Bold.ttf");
 
         Intent intent = getIntent();
 
@@ -25,6 +27,11 @@ public class DetailActivity extends AppCompatActivity {
         trick = (TextView)findViewById(R.id.trick);
         ImageView pic = (ImageView)findViewById(R.id.img);
 
+        menuName.setTypeface(mytypeface);
+        information.setTypeface(mytypeface);
+        item.setTypeface(mytypeface);
+        step.setTypeface(mytypeface);
+        trick.setTypeface(mytypeface);
 
         menuName.setText(cooking.getName());
         information.setText(cooking.getInformation());
@@ -32,6 +39,7 @@ public class DetailActivity extends AppCompatActivity {
         item.setText(cooking.getItem());
         step.setText(cooking.getStep());
         trick.setText(cooking.getTrick());
+
 
     }
 }

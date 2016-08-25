@@ -1,5 +1,6 @@
 package com.kan.lannacookingv3;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +9,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
     private ListView listView;
@@ -19,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
         listView = (ListView)findViewById(R.id.listView);
 
+
         TextView title = (TextView)findViewById(R.id.title);
+
         title.setTypeface(mytypeface);
 
         CookingDAO cookingDAO = new CookingDAO(this);
@@ -37,4 +42,5 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
 }
