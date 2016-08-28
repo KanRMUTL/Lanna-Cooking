@@ -85,8 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Large Text"
-        android:id="@+id/trick"
-            android:paddingLeft="16dp"
+        android:id="@+id/trick" android:paddingLeft="16dp"
         style="@style/content_detail"/>
 
     </LinearLayout>

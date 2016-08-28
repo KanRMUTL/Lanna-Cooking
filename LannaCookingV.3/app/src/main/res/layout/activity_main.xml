@@ -21,7 +21,7 @@
             app:srcCompat="@drawable/logo"
             android:layout_above="@+id/listView"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="5dp"
             android:id="@+id/imageView3"
             android:adjustViewBounds="false" />
 

@@ -7,9 +7,6 @@ import android.widget.ImageView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Kanty on 20/8/2559.
- */
 public class CookingDAO {
     private SQLiteDatabase database;
     private DbHelper dbHelper;

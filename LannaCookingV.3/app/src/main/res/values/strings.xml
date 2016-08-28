@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lanna Cooking V.3</string>
+    <string name="app_name">Lanna Cooking</string>
     <string name="menu_name">ชื่อเมนู</string>
     <string name="title_item">ส่วนผสม</string>
     <string name="title_step">วิธีทำ</string>
