@@ -22,7 +22,7 @@ public class CookingDAO {
 
     public ArrayList<Cooking>findAll(){
         ArrayList<Cooking> cookings = new ArrayList<>();
-        String sqlText  = "SELECT * FROM cooking ORDER BY id ;";
+        String sqlText  = "SELECT * FROM cooking ORDER BY id DESC;";
         Cursor cursor = database.rawQuery(sqlText,null);
         cursor.moveToFirst();
         Cooking cooking;
