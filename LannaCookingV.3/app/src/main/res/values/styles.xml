@@ -32,6 +32,6 @@
     <style name="item_activity_row">
         <item name="android:paddingLeft">23dp</item>
         <item name="android:textSize">15sp</item>
-        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingBottom">14dp</item>
     </style>
 </resources>
