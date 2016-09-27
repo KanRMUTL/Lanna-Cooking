@@ -5,8 +5,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DbHelper extends SQLiteOpenHelper {
-    private static final String databaseName = "LannaCooking22.sqlte";
-    private static final int databaseVersion = 5;
+    private static final String databaseName = "LannaCookingxx.sqlte";
+    private static final int databaseVersion = 6;
     private Context myContext;
 
 
@@ -87,7 +87,7 @@ public class DbHelper extends SQLiteOpenHelper {
                 "3.ผัดเครื่องแกงให้หอมเติมน้ำพอเดือด\nใส่ปลาแห้ง \n" + "4.ต้มพอให้ปลานุ่มใส่มะรุมต้มจนสุกนิ่ม\n" +
                 "5.ใส่ชะอมใบชะพลูพอผักสุกปิดไฟ\n',"+
 
-                "'','kmr.jpg');";
+                "'แนะนำให้ทานกับปลาทูทอดจะทำให้รสชาติอร่อยและเข้ากันได้','kmr.jpg');";
         db.execSQL(SQLText);
 
 
@@ -143,7 +143,7 @@ public class DbHelper extends SQLiteOpenHelper {
                 "3.\tใส่วุ้นเส้น ผัดจนวุ้นเส้นสุก\n" + "4.\tใส่ไข่ไก่ ผัดให้เข้ากัน\n" +
                 "5.\tใส่พริกชี้ฟ้า ต้นหอม มะเขือเทศ และกระเทียมดอง ผัดให้เข้ากัน พอสุก ปิดไฟ',"+
 
-                "'','kjc.jpg');";
+                "'เลือกจิ้นส้มที่ทำจากสันคอเนื้อหมู เพราะเนื้อนุ่มและติดมันเล็กน้อย จะได้เนื้อจิ๊นส้มที่อร่อย','kjc.jpg');";
         db.execSQL(SQLText);
 
         SQLText = "INSERT INTO cooking (id, name, information, item, step,trick, img)" +
