@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DbHelper extends SQLiteOpenHelper {
-    private static final String databaseName = "LannaCookingxx.sqlte";
+    private static final String databaseName = "LannaCooking.sqlte";
     private static final int databaseVersion = 6;
     private Context myContext;
 
@@ -640,7 +640,11 @@ public class DbHelper extends SQLiteOpenHelper {
 
         SQLText = "INSERT INTO cooking (id, name, information, item, step,trick, img)" +
                 "VALUES ('027', 'ข้าวบ่ายปลาทู', " +
-                "'จิ๊นนึ่ง คือเนื้อควายหรือเนื้อวัวที่นำมานึ่งให้เปื่อย รับประทานกับน้ำพริก', " +
+                "'ข้าวบ่าย หมายถึงอาหารประเภทกินด่วนแบบโบราณ มีข้าวเหนียวนึ่งและไส้ ซึ่งอาจจะเป็นปลาทูนึ่ง นำมาย่างไฟ หรือทอด หมูเค็ม จิ๊นแห้ง " +
+                "(จิ๊นเกื๋อ) นํ้าพริกแดง ผักกาดดอง อย่างใดอย่างหนึ่ง หรือจะใส่ตามชอบก็ได้ ส่วนใหญ่นิยมไส้จิ๊นแห้งกับน้ำพริกตาแดง หรือไส้ปลาทูย่างหรือทอด" +
+                " นำไปย่างกับเตาถ่าน หรือไม่ย่างก็ได้ อาจเรียกชื่อตามไส้ เช่น ข่าวบ่ายปลาทู ข้าวบ่ายจิ๊นแห้ง ถ้าใช้ไส้เป็นน้ำพริกผสมกับน้ำมันพืชหรือน้ำมันหมูเล็กน้อย" +
+                " นำไปย่างไฟ เรียกว่า ข้าวบ่ายน้ำมัน จะใช้นำพริกตาแดง หรือทำน้ำพริก โดยใช้พริกขี้หนูแห้ง กระเทียม หอมแดง นำมาย่างไฟ โขลกให้ละเอียด " +
+                "ใส่เกลือและน้ำมันพืชหรือน้ำมันหมู แล้วนำไปย่างไฟ', " +
                 "'1.\tข้าวนึ่ง\t400\tกรัม\n" +
                 "2.\tปลาทู\t2\tตัว'," +
 
