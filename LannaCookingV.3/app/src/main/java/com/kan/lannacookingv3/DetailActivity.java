@@ -22,13 +22,12 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+
         Typeface mytypeface = Typeface.createFromAsset(getAssets(), "THSarabun Bold.ttf");
 
         Intent intent = getIntent();
 
         cooking = (Cooking) intent.getSerializableExtra("cookingObj");
-
-
 
         menuName = (TextView)findViewById(R.id.title_menuName);
         information = (TextView)findViewById(R.id.information);
@@ -66,5 +65,4 @@ public class DetailActivity extends AppCompatActivity {
         trick.setTypeface(mytypeface);
 
     }
-
 }

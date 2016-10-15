@@ -20,7 +20,7 @@
         <item name="android:textSize">22sp</item>
        <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_marginLeft">20dp</item>
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColor">#D7DF01</item>
 
     </style>
 
